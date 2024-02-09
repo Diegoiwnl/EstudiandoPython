@@ -20,14 +20,14 @@ def main():
             print("Ha seleccionado la operacion Resta")
             Num1 = int(input("Ingresar el primer numero: "))
             Num2 = int(input("Ingresar el segundo numero: "))
-            restar = Num1-Num2
-            print("El resultado de la resta es: " ,restar)
+            Restar = Num1-Num2
+            print("El resultado de la resta es: " ,Restar)
         elif opcion == 3:
             print("Ha seleccionado la operacion Multiplicar")
             Num1 = int(input("Ingresar el primer numero: "))
             Num2 = int(input("Ingresar el segundo numero: "))
-            multiplicar = Num1*Num2
-            print("El resultado de la resta es: " ,multiplicar)
+            Multiplicar = Num1*Num2
+            print("El resultado de la resta es: " ,Multiplicar)
         elif opcion == 4:
             print("Ha seleccionado la operacion Dividir")
             Num1 = int(input("Ingresar el primer numero: "))
